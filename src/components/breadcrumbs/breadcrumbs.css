@@ -1,0 +1,28 @@
+.cart-outer .card-checkout-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cart-outer .card-checkout-wrap .cart h1 {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.cart-outer .card-checkout-wrap .home-checkout a {
+  color: #ffffff;
+  background-color: #0b0b0b;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  transition: 0.3s all ease-in-out;
+}
+.cart-outer .card-checkout-wrap .home-checkout a:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+.cart-outer .card-checkout-wrap .home-checkout i {
+  margin: 0 5px;
+}

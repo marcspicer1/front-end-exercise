@@ -1,0 +1,116 @@
+.additional-info-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.additional-info-wrap .additional-info {
+  width: 33%;
+}
+.additional-info-wrap .delivery-info {
+  width: 33%;
+}
+.additional-info-wrap .sub-total {
+  width: 30%;
+}
+.additional-info-wrap .additional-info h5 {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.additional-info-wrap .additional-info textarea {
+  resize: unset;
+  background-color: #000000;
+  border: unset;
+  color: #ffffff;
+  padding: 10px;
+  width: 100%;
+}
+.additional-info-wrap .delivery-info h5 {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+.additional-info-wrap .delivery-info p {
+  color: #a4a4a4;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.additional-info-wrap .sub-total ul li {
+  display: flex;
+  justify-content: space-between;
+  padding: 7px;
+  border-radius: 7px;
+}
+.additional-info-wrap .sub-total ul li:nth-child(3) {
+  background-color: #000000;
+}
+.additional-info-wrap .sub-total ul li p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  margin-top: 0;
+}
+.additional-info-wrap .sub-total ul li span {
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.checkout-btn {
+  text-align: center;
+  margin-top: 30px;
+}
+.checkout-btn a {
+  background-color: #ae0000;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 24px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  transition: 0.3s all ease-in-out;
+}
+.checkout-btn a:hover {
+  background-color: #ffffff;
+  color: #000;
+}
+.sub-total p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 15px;
+}
+.sub-total p a {
+  text-decoration: underline !important;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 22px;
+  margin-left: 10px;
+}
+/*------------- 767px -----------------*/
+@media only screen and (max-width: 767px) {
+  .additional-info-wrap {
+    display: block;
+  }
+  .additional-info-wrap .additional-info {
+    width: 100%;
+  }
+  .additional-info-wrap .delivery-info {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .additional-info-wrap .sub-total {
+    width: 100%;
+  }
+}

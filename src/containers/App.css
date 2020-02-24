@@ -1,0 +1,219 @@
+/* Reset -------------------------------------------------- */
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+code,
+del,
+dfn,
+em,
+img,
+q,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+caption,
+article,
+aside,
+dialog,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+article,
+aside,
+dialog,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+}
+
+blockquote,
+q {
+  quotes: "" "";
+}
+
+a img {
+  border: none;
+}
+
+:focus {
+  outline: 0;
+}
+
+a:focus {
+  outline: none;
+}
+
+/* Global -------------------------------------------------- */
+body {
+  color: #000;
+  font-size: 14px;
+  line-height: 21px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #1b1b1b;
+}
+
+/* Global Css for headings, p and achors */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+}
+
+h2 {
+}
+
+h3 {
+}
+
+h4 {
+}
+
+h5 {
+}
+
+h6 {
+}
+
+p {
+}
+
+a {
+  text-decoration: none !important;
+}
+
+button {
+}
+
+ul,
+ul li,
+ul ol,
+ul li ul,
+ul li ul li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.clear {
+  clear: both;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.fade-out {
+  display: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-capital {
+  text-transform: uppercase;
+}
+
+/*----------------------------Fonts------------------------------*/
+
+/*---------------------------------------------------------------*/
+.container {
+  max-width: 1065px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+/* styles starts here */
+
+.cart-outer {
+  background-color: #1b1b1b;
+  padding: 45px 0 70px 0;
+}
+
+/* styles ends here */
+/*-------------Media Querries-----------------*/
+@media only screen and (max-width: 1199px) {
+}
+
+/*------------- 1024px -----------------*/
+@media only screen and (max-width: 1024px) {
+}
+
+/*------------- 660px -----------------*/
+@media only screen and (max-width: 640px) {
+}
+
+/*------------- 480px -----------------*/
+@media only screen and (max-width: 480px) {
+}
+
+/*------------- 425px -----------------*/
+@media only screen and (max-width: 425px) {
+}
+
+/*------------- 330px -----------------*/
+@media only screen and (max-width: 330px) {
+}

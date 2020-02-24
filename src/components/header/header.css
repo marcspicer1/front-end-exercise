@@ -1,0 +1,42 @@
+.header {
+  background-color: #ae0000;
+  padding: 15px 0;
+}
+.header .header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header-content .order-form h2 {
+  color: #ffffff;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 20px;
+}
+.header .header-content .order-form span {
+  font-weight: 600;
+}
+.header .header-content .card a {
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: capitalize;
+}
+.header .header-content .card a span {
+  width: 17px;
+  height: 17px;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  line-height: 17px;
+  font-weight: 600;
+  margin-left: 5px;
+}
+.header .card {
+  background-color: unset !important;
+  border: unset !important;
+}
